@@ -1,8 +1,8 @@
 function MainSection() {
   return (
     <div className="bg-header-image bg-contain ">
-      <div className="flex items-center justify-center pt-8">
-        <h1 className="text-6xl text-whitesmoke font-medium pt-12 font-italianno">
+      <div className="flex items-center justify-center">
+        <h1 className="text-6xl text-whitesmoke font-medium pt-10 font-italianno">
           Ana y Gabriel
         </h1>
       </div>

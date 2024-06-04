@@ -20,7 +20,7 @@ function MainDetails() {
         <h2 className="flex items-center justify-center font-italianno text-4xl">
           lugar
         </h2>
-        <p className="flex items-center justify-center mx-auto font-bold text-4xl">Sitio aún por definir</p>
+        <p className="flex items-center justify-center mx-auto font-bold text-4xl">Aún por definir</p>
         <p className="flex items-center justify-center mx-auto">Puerto Colombia, Atlantico</p>
 
         <button className="flex items-center justify-center mx-auto mt-4 bg-oldrose hover:bg-auburn text-whitesmoke font-bold py-2 px-4 rounded">
@@ -32,7 +32,7 @@ function MainDetails() {
         <h2 className="flex items-center justify-center font-medium font-italianno text-4xl">
           hora
         </h2>
-        <p className="flex items-center justify-center font-bold text-3xl">10:00am</p>
+        <p className="flex items-center justify-center font-bold text-3xl">Aún por definir</p>
       </div>
       <br />
     </div>

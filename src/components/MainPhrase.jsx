@@ -1,5 +1,4 @@
 import goldBorder from "../img/gold-border-with-roses.png";
-import Roses from "../img/roses.png";
 export default function MainPhrase() {
   return (
     <div className="relative items-center justify-center bg-gold-border-with-roses bg-contain">
