@@ -1,22 +1,32 @@
 import "./App.css";
 import React from "react";
 import {
-  BrowserRouter,
+  createBrowserRouter,
   Routes,
   Route,
+  RouterProvider
 } from "react-router-dom";
 import { Home } from "./routes/Home";
 import { Gallery } from "./routes/Gallery";
 import ErrorPage from "./routes/ErrorPage";
 
+const router = createBrowserRouter([
+  {
+    path:'/anaygabriel/',
+    element: <Home/>
+  },
+  {
+    path:'/anaygabriel/galeria',
+    element: <Gallery/>
+  },
+  {path:'/*',
+    element:<ErrorPage/>
+  }
+])
+
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/anaygabriel/" element={<Home />} />
-        <Route path="/anaygabriel/galeria" element={<Gallery />} />
-      </Routes>
-    </BrowserRouter>
+    <RouterProvider router={router} />
   );
 }
 
