@@ -1,5 +1,6 @@
 import React from "react";
 import bgimage from "../img/largesizeimage.jpg";
+import { Link } from "react-router-dom";
 
 export const BigScreenComponent = () => {
   return (
@@ -17,8 +18,11 @@ export const BigScreenComponent = () => {
           <h2 className="text-whitesmoke  font-bold font-handlee pt-5 flex items-center justify-center mx-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
             10.01.2025
           </h2>
-          <p className="text-whitesmoke sm:mt-4 md:mt-5 lg:mt-20 font-handlee pt-5 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
-            Para ver la invitación utiliza tu teléfono
+          <Link to={"/anaygabriel/galeria"}><p className="text-whitesmoke sm:mt-4 md:mt-5 lg:mt-20 font-handlee pt-5 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-center underline">
+            Fotografías
+          </p></Link>
+          <p className="text-whitesmoke sm:mt-4 md:mt-5 lg:mt-20 font-handlee pt-5 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-center">
+            Para ver la invitación y <br />confirmar tu asistencia utiliza tu teléfono
           </p>
         </div>
       </div>
