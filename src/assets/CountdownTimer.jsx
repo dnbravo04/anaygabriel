@@ -5,8 +5,7 @@ import { useCountdown } from "./useCountdown";
 const ExpiredNotice = () => {
   return (
     <div>
-      <span>Expired!!!</span>
-      <p>Please select a future date and time.</p>
+      <h2>¡Hoy!</h2>
     </div>
   );
 };

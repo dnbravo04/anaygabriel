@@ -1,7 +1,7 @@
 import finalImage from "../img/image3.jpg"
 import React from 'react'
 
-function FinalPart() {
+function MainFinalPart() {
   return (
     <>
     <div className="items-center justify-center flex">
@@ -12,4 +12,4 @@ function FinalPart() {
   )
 }
 
-export default FinalPart
+export default MainFinalPart

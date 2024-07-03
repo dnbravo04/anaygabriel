@@ -2,6 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens:{
+      'xs':'451px'
+    },
     extend: {
       fontFamily:{
         "italianno":['Italianno','serif'],

@@ -12,7 +12,7 @@ function MainRecommendations() {
         Recomendaciones
       </h2>
 
-      <div className="grid grid-cols-3 grid-rows-[repeat(7,0.5fr)] gap-4 mb-5">
+      <div className="grid grid-cols-3 grid-rows-[repeat(7, 0.5fr)] gap-4 mb-5">
         <div className="col-span-2">
           <p className="pl-4 text-justify">
             Es fundamental que los invitados confirmen su asistencia antes de la
@@ -22,19 +22,19 @@ function MainRecommendations() {
         </div>
 
         <div className="col-start-3">
-          <img src={iconAttendance} alt="" srcset="" />
+          <img src={iconAttendance} alt="Icono de asistencia" srcSet="" />
         </div>
 
         <div className="row-start-2">
-          <img src={iconWomen} alt="" srcset="" />
+          <img src={iconWomen} alt="Icono de mujeres" srcSet="" />
         </div>
 
         <div className="col-span-2 row-start-2">
           <p className="pr-4 text-justify">
-            vestidos elegantes, trajes de cóctel o atuendos formales son comunes
+            Vestidos elegantes, trajes de cóctel o atuendos formales son comunes
             en las bodas. Evita colores demasiado llamativos o vestimenta
             inapropiada. Las mujeres deben vestirse de manera apropiada para la
-            ocasión
+            ocasión.
           </p>
         </div>
 
@@ -47,11 +47,11 @@ function MainRecommendations() {
         </div>
 
         <div className="col-start-3 row-start-3">
-          <img src={iconMen} alt="" srcset="" />
+          <img src={iconMen} alt="Icono de hombres" srcSet="" />
         </div>
 
         <div className="row-start-4">
-          <img src={iconCar} alt="" srcset="" />
+          <img src={iconCar} alt="Icono de carro" srcSet="" />
         </div>
 
         <div className="col-span-2 row-start-4">
@@ -70,11 +70,11 @@ function MainRecommendations() {
         </div>
 
         <div className="col-start-3 row-start-5">
-          <img src={iconPunctuality} alt="" srcset="" />
+          <img src={iconPunctuality} alt="Icono de puntualidad" srcSet="" />
         </div>
 
         <div className="row-start-6">
-          <img src={iconGift} alt="" srcset="" />
+          <img src={iconGift} alt="Icono de regalo" srcSet="" />
         </div>
 
         <div className="col-span-2 row-start-6">
@@ -86,11 +86,11 @@ function MainRecommendations() {
         </div>
 
         <div className="col-span-3 row-start-7 text-center">
-        <p className="px-4 text-justify">
-          En general, las bodas son eventos formales y no suelen ser apropiados
-          para niños pequeños o mascotas. Si no se ha especificado lo contrario,
-          es recomendable dejar a los niños y las mascotas en casa para evitar
-          distracciones durante la ceremonia.
+          <p className="px-4 text-justify">
+            En general, las bodas son eventos formales y no suelen ser
+            apropiados para niños pequeños o mascotas. Si no se ha especificado
+            lo contrario, es recomendable dejar a los niños y las mascotas en
+            casa para evitar distracciones durante la ceremonia.
           </p>
         </div>
       </div>
