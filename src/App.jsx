@@ -4,6 +4,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
+  HashRouter,
 } from "react-router-dom";
 import { Home } from "./routes/Home";
 import { Gallery } from "./routes/Gallery";
@@ -11,12 +12,12 @@ import ErrorPage from "./routes/ErrorPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/anaygabriel/" element={<Home />} />
         <Route path="/anaygabriel/galeria" element={<Gallery />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
