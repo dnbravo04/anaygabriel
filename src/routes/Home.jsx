@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import GalleryLink from "../components/MainGalleryLink";
 import { BigScreenComponent } from "../components/BigScreenComponent";
 
+
 export const Home = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 451);
 

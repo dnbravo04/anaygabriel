@@ -1,20 +1,15 @@
 import { Link } from "react-router-dom";
 function GalleryLink() {
   return (
-    <div className="items-center justify-center bg-gallery-image bg-contain h-96 pt-52">
-      <div className="flex items-center justify-center mx-auto">
-        <h2 className="font-italianno text-6xl text-whitesmoke">
-          Nuestro compromiso
-        </h2>
-      </div>
-      <div className="flex items-center justify-center mx-auto mt-2">
+    <div className="items-center justify-center bg-gallery-image bg-cover bg-no-repeat w-full h-96 pt-72">
+
         <Link to={"/anaygabriel/galeria"}>
-          <button className="mx-auto border border-oldrose bg-oldrose bg-opacity-50 hover:bg-opacity-100 text-whitesmoke py-2 px-4 rounded ">
+          <div className="flex w-3/4 items-center justify-center mx-auto border font-semibold border-auburn bg-oldrose bg-opacity-50 hover:bg-opacity-70 text-whitesmoke py-2 px-8">
             Galería
-          </button>
+          </div>
         </Link>
       </div>
-    </div>
+
   );
 }
 

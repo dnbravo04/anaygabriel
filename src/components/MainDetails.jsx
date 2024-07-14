@@ -12,7 +12,7 @@ function MainDetails() {
           Faltan
         </h2>
         <CountdownTimer />
-        <button className="flex items-center justify-center mx-auto mt-4 bg-oldrose hover:bg-auburn text-whitesmoke font-bold py-2 px-4 rounded">
+        <button className="flex w-3/4 items-center justify-center mx-auto border font-semibold border-auburn bg-oldrose bg-opacity-50 hover:bg-opacity-70 text-whitesmoke py-2 px-8">
           Agregar al calendario
         </button>
       </div>
@@ -29,7 +29,7 @@ function MainDetails() {
         </p>
         <a href="https://maps.app.goo.gl/cAJDpGcbnUQ5Kj9eA">
           <button
-            className="flex items-center justify-center mx-auto mt-4 bg-oldrose hover:bg-auburn text-whitesmoke font-bold py-2 px-4 rounded"
+            className="flex w-3/4 items-center justify-center mx-auto border font-semibold border-auburn bg-oldrose bg-opacity-50 hover:bg-opacity-70 text-whitesmoke py-2 px-8"
             type="button"
           >
             ¿Como llegar?
