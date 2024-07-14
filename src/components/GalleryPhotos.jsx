@@ -11,135 +11,135 @@ export const GalleryPhotos = () => {
         const photoData = [
           {
             id: 1,
-            src: "/image_1.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_1.jpeg",
           },
           {
             id: 2,
-            src: "/image_2.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_2.jpeg",
           },
           {
             id: 3,
-            src: "/image_3.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_3.jpeg",
           },
           {
             id: 4,
-            src: "/image_4.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_4.jpeg",
           },
           {
             id: 5,
-            src: "/image_5.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_5.jpeg",
           },
           {
             id: 6,
-            src: "/image_6.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_6.jpeg",
           },
           {
             id: 7,
-            src: "/image_7.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_7.jpeg",
           },
           {
             id: 8,
-            src: "/image_8.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_8.jpeg",
           },
           {
             id: 9,
-            src: "/image_9.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_9.jpeg",
           },
           {
             id: 10,
-            src: "/image_10.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_10.jpeg",
           },
           {
             id: 11,
-            src: "/image_11.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_11.jpeg",
           },
           {
             id: 12,
-            src: "/image_12.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_12.jpeg",
           },
           {
             id: 13,
-            src: "/image_13.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_13.jpeg",
           },
           {
             id: 14,
-            src: "/image_14.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_14.jpeg",
           },
           {
             id: 15,
-            src: "/image_15.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_15.jpeg",
           },
           {
             id: 16,
-            src: "/image_16.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_16.jpeg",
           },
           {
             id: 17,
-            src: "/image_17.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_17.jpeg",
           },
           {
             id: 18,
-            src: "/image_18.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_18.jpeg",
           },
           {
             id: 19,
-            src: "/image_19.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_19.jpeg",
           },
           {
             id: 20,
-            src: "/image_20.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_20.jpeg",
           },
           {
             id: 21,
-            src: "/image_21.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_21.jpeg",
           },
           {
             id: 22,
-            src: "/image_22.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_22.jpeg",
           },
           {
             id: 23,
-            src: "/image_23.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_23.jpeg",
           },
           {
             id: 24,
-            src: "/image_24.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_24.jpeg",
           },
           {
             id: 25,
-            src: "/image_25.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_25.jpeg",
           },
           {
             id: 26,
-            src: "/image_26.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_26.jpeg",
           },
           {
             id: 27,
-            src: "/image_27.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_27.jpeg",
           },
           {
             id: 28,
-            src: "/image_28.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_28.jpeg",
           },
           {
             id: 29,
-            src: "/image_29.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_29.jpeg",
           },
           {
             id: 30,
-            src: "/image_30.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_30.jpeg",
           },
           {
             id: 31,
-            src: "/image_31.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_31.jpeg",
           },
           {
             id: 32,
-            src: "/image_32.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_32.jpeg",
           },
           {
             id: 33,
-            src: "/image_33.jpeg",
+            src: "../anaygabriel/src/img/photos/jpeg_images/image_33.jpeg",
           },
         ];
 
@@ -162,7 +162,7 @@ export const GalleryPhotos = () => {
           <img
             key={index}
             className="w-full mb-4 break-inside-avoid"
-            src={`../anaygabriel/src/img/photos/jpeg_images${imageUrl}`}
+            src={imageUrl}
             alt={`Image ${index + 1}`}
           />
         ))}
