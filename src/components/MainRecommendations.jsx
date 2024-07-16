@@ -54,7 +54,7 @@ function MainRecommendations() {
           </strong>
         </div>
         <div className="col-span-3 row-start-4 flex m-auto">
-          <div className="grid grid-cols-8 grid-rows-1 gap-4 mx-4">
+          <div className="grid grid-cols-4 grid-rows-1 gap-4 mx-4">
             <div>
               <img src={rose1} />
             </div>
@@ -66,18 +66,6 @@ function MainRecommendations() {
             </div>
             <div>
               <img src={rose4} />
-            </div>
-            <div>
-              <img src={green1} />
-            </div>
-            <div>
-              <img src={green2} />
-            </div>
-            <div>
-              <img src={green3} />
-            </div>
-            <div>
-              <img src={green4} />
             </div>
           </div>
         </div>
