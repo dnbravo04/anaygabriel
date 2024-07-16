@@ -21,7 +21,7 @@ function MainDetails() {
         <h2 className="flex items-center justify-center font-italianno text-4xl">
           Lugar
         </h2>
-        <p className="flex items-center justify-center mx-auto font-bold text-3xl">
+        <p className="flex items-center text-center justify-center mx-auto font-bold text-3xl">
           Hotel Puerto Colombia
         </p>
         <p className="flex items-center justify-center mx-auto">
