@@ -25,7 +25,7 @@ export default {
       },
       backgroundImage:{
         'header-image': "url('./img/image1.jpg')",
-        'gallery-image':"url('./img/image2.jpg')",
+        'gallery-image':"url('./img/image2.jpeg')",
         'gold-border-with-roses':"url('./img/gold-border-with-roses.png')",
         'final-image':"url(./img/image3.jpg)"
       }

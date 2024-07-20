@@ -1,5 +1,5 @@
 import { Link, useRouteError } from "react-router-dom";
-import errorPhoto from "../img/image2.jpg";
+import errorPhoto from "../img/image2.jpeg";
 
 export default function ErrorPage() {
   const error = useRouteError();
