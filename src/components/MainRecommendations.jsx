@@ -106,8 +106,7 @@ function MainRecommendations() {
         </div>
 
         <div className="col-span-2 row-start-8 flex m-auto">
-          <p className="pr-4 text-justify">
-            <ul className="list-disc">
+            <ul className="list-disc pr-4 text-justify">
               <li>
                 Lista de regalos Falabella haciendo click{" "}
                 <a
@@ -120,7 +119,6 @@ function MainRecommendations() {
               </li>
               <li>Lluvia de sobres (En persona o al Nequi 3016247581)</li>
             </ul>
-          </p>
         </div>
 
         <div className="col-span-3 row-start-9 text-justify">

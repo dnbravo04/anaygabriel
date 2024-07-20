@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Footer from "./Footer.jsx";
 import photo1 from "../img/photos/jpeg_images/image_1.jpeg"
 import photo2 from "../img/photos/jpeg_images/image_2.jpeg"
 import photo3 from "../img/photos/jpeg_images/image_3.jpeg"
@@ -78,7 +77,7 @@ export const GalleryPhotos = () => {
           {images.map((image) => (
             <img
             key={image}
-            className="w-full mb-4 break-inside-avoid"
+            className="w-full mb-4 break-inside-avoid transition ease-in-out delay-75 hover:scale-105"
             src={image}
             alt={"Image ${index + 1}"}
             />
@@ -94,7 +93,6 @@ export const GalleryPhotos = () => {
           Volver a la pagina principal
         </Link>
       </div>
-      <Footer />
     </>
   );
 };
