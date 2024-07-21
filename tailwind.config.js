@@ -24,10 +24,10 @@ export default {
         'auburn': '#a6202d',
       },
       backgroundImage:{
-        'header-image': "url('./img/image1.jpg')",
-        'gallery-image':"url('./img/image2.jpeg')",
+        'header-image': "url('./img/image1.webp')",
+        'gallery-image':"url('./img/image2.webp')",
         'gold-border-with-roses':"url('./img/gold-border-with-roses.png')",
-        'final-image':"url(./img/image3.jpg)"
+        'final-image':"url(./img/image3.webp)"
       }
     },
   },

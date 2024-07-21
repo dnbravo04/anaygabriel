@@ -1,5 +1,5 @@
 import React from "react";
-import bgimage from "../img/image_20.jpeg";
+import bgimage from "../img/image_20.webp";
 import { Link } from "react-router-dom";
 
 export const BigScreenComponent = () => {
