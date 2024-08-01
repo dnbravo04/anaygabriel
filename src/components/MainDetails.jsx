@@ -13,7 +13,7 @@ function MainDetails() {
         </h2>
         <CountdownTimer />
         <button className="flex w-3/4 items-center justify-center mx-auto border font-semibold border-auburn bg-oldrose bg-opacity-50 hover:bg-opacity-70 text-whitesmoke py-2 px-8">
-          <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NHAwdjE2cGdxanZmY21kbWUxMmx0YjJnNXEgbWF0cmltb25pb2FuYXlnYWJyaWVsQG0&amp;tmsrc=matrimonioanaygabriel%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">Agregar al Calendario</a>
+          <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NHAwdjE2cGdxanZmY21kbWUxMmx0YjJnNXEgbWF0cmltb25pb2FuYXlnYWJyaWVsQG0&amp;tmsrc=matrimonioanaygabriel%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif" />Agregar al Calendario</a>
         </button>
       </div>
       <div className="items-center justify-center">
