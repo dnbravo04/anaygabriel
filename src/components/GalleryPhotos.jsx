@@ -1,38 +1,27 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import photo1 from "../img/photos/jpeg_images/image_1.jpeg"
-import photo2 from "../img/photos/jpeg_images/image_2.jpeg"
-import photo3 from "../img/photos/jpeg_images/image_3.jpeg"
-import photo4 from "../img/photos/jpeg_images/image_4.jpeg"
-import photo5 from "../img/photos/jpeg_images/image_5.jpeg"
-import photo6 from "../img/photos/jpeg_images/image_6.jpeg"
-import photo7 from "../img/photos/jpeg_images/image_7.jpeg"
-import photo8 from "../img/photos/jpeg_images/image_8.jpeg"
-import photo9 from "../img/photos/jpeg_images/image_9.jpeg"
-import photo10 from "../img/photos/jpeg_images/image_10.jpeg"
-import photo11 from "../img/photos/jpeg_images/image_11.jpeg"
-import photo12 from "../img/photos/jpeg_images/image_12.jpeg"
-import photo13 from "../img/photos/jpeg_images/image_13.jpeg"
-import photo14 from "../img/photos/jpeg_images/image_14.jpeg"
-import photo15 from "../img/photos/jpeg_images/image_15.jpeg"
-import photo16 from "../img/photos/jpeg_images/image_16.jpeg"
-import photo17 from "../img/photos/jpeg_images/image_17.jpeg"
-import photo18 from "../img/photos/jpeg_images/image_18.jpeg"
-import photo19 from "../img/photos/jpeg_images/image_19.jpeg"
-import photo20 from "../img/photos/jpeg_images/image_20.jpeg"
-import photo21 from "../img/photos/jpeg_images/image_21.jpeg"
-import photo22 from "../img/photos/jpeg_images/image_22.jpeg"
-import photo23 from "../img/photos/jpeg_images/image_23.jpeg"
-import photo24 from "../img/photos/jpeg_images/image_24.jpeg"
-import photo25 from "../img/photos/jpeg_images/image_25.jpeg"
-import photo26 from "../img/photos/jpeg_images/image_26.jpeg"
-import photo27 from "../img/photos/jpeg_images/image_27.jpeg"
-import photo28 from "../img/photos/jpeg_images/image_28.jpeg"
-import photo29 from "../img/photos/jpeg_images/image_29.jpeg"
-import photo30 from "../img/photos/jpeg_images/image_30.jpeg"
-import photo31 from "../img/photos/jpeg_images/image_31.jpeg"
-import photo32 from "../img/photos/jpeg_images/image_32.jpeg"
-import photo33 from "../img/photos/jpeg_images/image_33.jpeg"
+import photo1 from "../img/photos/jpg_images/image_1.jpg"
+import photo2 from "../img/photos/jpg_images/image_2.jpg"
+import photo3 from "../img/photos/jpg_images/image_3.jpg"
+import photo4 from "../img/photos/jpg_images/image_4.jpg"
+import photo5 from "../img/photos/jpg_images/image_5.jpg"
+import photo6 from "../img/photos/jpg_images/image_6.jpg"
+import photo7 from "../img/photos/jpg_images/image_7.jpg"
+import photo8 from "../img/photos/jpg_images/image_8.jpg"
+import photo9 from "../img/photos/jpg_images/image_9.jpg"
+import photo10 from "../img/photos/jpg_images/image_10.jpg"
+import photo11 from "../img/photos/jpg_images/image_11.jpg"
+import photo12 from "../img/photos/jpg_images/image_12.jpg"
+import photo13 from "../img/photos/jpg_images/image_13.jpg"
+import photo14 from "../img/photos/jpg_images/image_14.jpg"
+import photo15 from "../img/photos/jpg_images/image_15.jpg"
+import photo16 from "../img/photos/jpg_images/image_16.jpg"
+import photo17 from "../img/photos/jpg_images/image_17.jpg"
+import photo18 from "../img/photos/jpg_images/image_18.jpg"
+import photo19 from "../img/photos/jpg_images/image_19.jpg"
+import photo20 from "../img/photos/jpg_images/image_20.jpg"
+import photo21 from "../img/photos/jpg_images/image_21.jpg"
+import photo22 from "../img/photos/jpg_images/image_22.jpg"
 
 
 export const GalleryPhotos = () => {
@@ -57,18 +46,7 @@ export const GalleryPhotos = () => {
     photo19,
     photo20,
     photo21,
-    photo22,
-    photo23,
-    photo24,
-    photo25,
-    photo26,
-    photo27,
-    photo28,
-    photo29,
-    photo30,
-    photo31,
-    photo32,
-    photo33]
+    photo22,]
 
   return (
     <>
