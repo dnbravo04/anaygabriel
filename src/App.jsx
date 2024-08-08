@@ -4,29 +4,35 @@ import {
   createBrowserRouter,
   Routes,
   Route,
-  RouterProvider
+  RouterProvider,
+  BrowserRouter
 } from "react-router-dom";
 import { Home } from "./routes/Home";
 import { Gallery } from "./routes/Gallery";
 import ErrorPage from "./routes/ErrorPage";
 
+const basename = '/anaygabriel';
+
 const router = createBrowserRouter([
   {
-    path:'/anaygabriel/',
-    element: <Home/>
+    path: `${basename}/`,
+    element: <Home />
   },
   {
-    path:'/anaygabriel/galeria',
-    element: <Gallery/>
+    path: `${basename}/galeria`,
+    element: <Gallery />
   },
-  {path:'/*',
-    element:<ErrorPage/>
+  {
+    path: '*',
+    element: <ErrorPage />
   }
-])
+]);
 
 function App() {
   return (
-    <RouterProvider router={router} />
+    <BrowserRouter basename={basename}>
+      <RouterProvider router={router} />
+    </BrowserRouter>
   );
 }
 
