@@ -1,39 +1,26 @@
-import "./App.css";
-import React from "react";
-import {
-  createBrowserRouter,
-  Routes,
-  Route,
-  RouterProvider,
-  BrowserRouter
-} from "react-router-dom";
-import { Home } from "./routes/Home";
-import { Gallery } from "./routes/Gallery";
-import ErrorPage from "./routes/ErrorPage";
-
-const basename = '/anaygabriel';
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Home } from './routes/Home';
+import { Gallery } from './routes/Gallery';
+import ErrorPage from './routes/ErrorPage';
 
 const router = createBrowserRouter([
   {
-    path: `${basename}/`,
-    element: <Home />
+    path: '/anaygabriel/',
+    element: <Home />,
   },
   {
-    path: `${basename}/galeria`,
-    element: <Gallery />
+    path: '/anaygabriel/galeria',
+    element: <Gallery />,
   },
   {
     path: '*',
-    element: <ErrorPage />
-  }
+    element: <ErrorPage />,
+  },
 ]);
 
 function App() {
-  return (
-    <BrowserRouter basename={basename}>
-      <RouterProvider router={router} />
-    </BrowserRouter>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
