@@ -7,7 +7,7 @@ function MainFinalPart() {
       <a href="https://forms.gle/HQydLEpJQhRNys4i8" target="_blank" className="flex mx-auto">
           <button
             className="
-          w-3/4 mx-auto border mb-5 border-auburn bg-oldrose bg-opacity-50 hover:bg-opacity-70 text-whitesmoke py-2 px-2"
+          mx-auto border mb-5 border-auburn bg-oldrose hover:bg-opacity-70 text-whitesmoke py-2 px-2"
           >
             Responde a la invitación
           </button>
