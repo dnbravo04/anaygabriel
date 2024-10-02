@@ -14,6 +14,10 @@ const router = createBrowserRouter([
     element: <Gallery />,
   },
   {
+    path: '/anaygabriel/bogota',
+    element: <ErrorPage/>,
+  },
+  {
     path: '*',
     element: <ErrorPage />,
   },
