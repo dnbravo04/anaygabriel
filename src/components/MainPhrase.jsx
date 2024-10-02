@@ -8,7 +8,7 @@ export default function MainPhrase() {
         alt=""
       />
       <div className="absolute inset-0 flex items-center justify-center">
-        <p className="px-8 text-center font-handlee text-4xl text-oldrose">"En un beso, sabrás todo lo que he callado"</p>
+        <p className="px-12 text-center font-handlee text-4xl text-oldrose">"El amor es el hechizo que transforma lo ordinario en extraordinario"</p>
       </div>
     </div>
   );
