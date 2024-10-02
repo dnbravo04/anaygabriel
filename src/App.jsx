@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/anaygabriel/bogota',
-    element: <ErrorPage/>,
+    element: <ErrorPage />,
   },
   {
     path: '*',
