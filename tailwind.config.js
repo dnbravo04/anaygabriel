@@ -20,6 +20,9 @@ export default {
         oldrose: "#be7679",
         blackolive: "#2b2a1a",
         auburn: "#a6202d",
+        pakistangreen: "#26300D",
+        mossgreen:"#576C1E",
+        platinum:"#D3DBDE",
       },
       backgroundImage: {
         "header-image": "url('./img/image1.webp')",

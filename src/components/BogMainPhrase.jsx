@@ -1,14 +1,14 @@
-import goldBorder from "../img/gold-border-with-roses.png";
+import greenBorder from "../img/green-border.png";
 export default function BogMainPhrase() {
   return (
-    <div className="relative items-center justify-center bg-gold-border-with-roses bg-contain">
+    <div className="relative items-center justify-center bg-green-border bg-contain">
       <img
-        className="bg-cover invisible object-cover"
-        src={goldBorder}
+        className="bg-cover object-cover"
+        src={greenBorder}
         alt=""
       />
       <div className="absolute inset-0 flex items-center justify-center">
-        <p className="px-12 text-center font-handlee text-4xl text-oldrose">"El amor es el hechizo que transforma lo ordinario en extraordinario"</p>
+        <p className="px-16 text-center font-handlee text-4xl text-mossgreen">"El amor es el hechizo que transforma lo ordinario en extraordinario"</p>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ function BogMainFinalPart() {
         >
           <button
             className="
-          mx-auto border mb-5 border-auburn bg-oldrose hover:bg-opacity-70 text-whitesmoke py-2 px-2"
+          mx-auto border mb-5 border-pakistangreen bg-mossgreen hover:bg-opacity-70 text-whitesmoke py-2 px-2"
           >
             Responde a la invitación
           </button>

@@ -27,7 +27,7 @@ function MainDetails() {
         <p className="flex items-center justify-center mx-auto mb-4">
           Calle 2 # 5-58, Puerto Colombia, Atlantico
         </p>
-        <a href="https://maps.app.goo.gl/cAJDpGcbnUQ5Kj9eA">
+        <a target="_blank" href="https://maps.app.goo.gl/cAJDpGcbnUQ5Kj9eA">
           <button
             className="flex w-3/4 items-center justify-center mx-auto border font-semibold border-auburn bg-oldrose bg-opacity-50 hover:bg-opacity-70 text-whitesmoke py-2 px-8"
             type="button"

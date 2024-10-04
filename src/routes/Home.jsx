@@ -5,7 +5,7 @@ import MainDetails from "../components/MainDetails";
 import MainRecommendations from "../components/MainRecommendations";
 import MainFinalPart from "../components/MainFinalPart";
 import Footer from "../components/Footer";
-import GalleryLink from "../components/BogMainGalleryLink";
+import GalleryLink from "../components/MainGalleryLink";
 import { BigScreenComponent } from "../components/BigScreenComponent";
 
 
