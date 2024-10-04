@@ -2,7 +2,9 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Home } from './routes/Home';
 import { Gallery } from './routes/Gallery';
+import {Bogota} from './routes/Bogota'
 import ErrorPage from './routes/ErrorPage';
+
 
 const router = createBrowserRouter([
   {
@@ -15,7 +17,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/anaygabriel/bogota',
-    element: <ErrorPage />,
+    element: <Bogota />,
   },
   {
     path: '*',

@@ -9,7 +9,7 @@ import rose2 from "../img/colors/rose2.png";
 import rose3 from "../img/colors/rose3.png";
 import rose4 from "../img/colors/rose4.png";
 
-function MainRecommendations() {
+function BogMainRecommendations() {
   return (
     <>
       <h2 className="flex items-center justify-center font-italianno text-6xl text-oldrose mt-2">
@@ -106,11 +106,7 @@ function MainRecommendations() {
             <li>
               Lista de regalos Falabella haciendo click en el siguiente enlace:
               <br />
-              <a
-                href="https://www.noviosfalabella.com.co/public/resultadoBusquedaNovios.do?radTipoBusqueda=&valorSelectOrdenamiento=fecha&txtBusqueda=475071-03"
-                target="_blank"
-                className="flex mx-auto"
-              >
+              <a href="https://www.noviosfalabella.com.co/public/resultadoBusquedaNovios.do?radTipoBusqueda=&valorSelectOrdenamiento=fecha&txtBusqueda=475071-03" target="_blank" className="flex mx-auto">
                 <button
                   className="
           mx-auto border mb-5 mt-2 border-auburn bg-oldrose hover:bg-opacity-70 text-whitesmoke py-1 px-2"
@@ -134,4 +130,4 @@ function MainRecommendations() {
   );
 }
 
-export default MainRecommendations;
+export default BogMainRecommendations;
