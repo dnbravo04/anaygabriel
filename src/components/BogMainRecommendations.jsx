@@ -105,7 +105,8 @@ function BogMainRecommendations() {
         <div className="col-span-2 row-start-8 flex m-auto">
           <ul className="list-disc pr-4">
             <li>
-              Lista de regalos Falabella haciendo click en el siguiente enlace:
+              Lista de regalos Falabella (Codigo 475071-03) haciendo click en el
+              siguiente enlace:
               <br />
               <a
                 href="https://www.noviosfalabella.com.co/public/resultadoBusquedaNovios.do?radTipoBusqueda=&valorSelectOrdenamiento=fecha&txtBusqueda=475071-03"
