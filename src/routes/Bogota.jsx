@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import MainSection from "../components/MainSection";
+import BogMainSection from "../components/BogMainSection";
 import BogMainPhrase from "../components/BogMainPhrase";
 import BogMainDetails from "../components/BogMainDetails";
 import BogMainRecommendations from "../components/BogMainRecommendations";
 import BogMainFinalPart from "../components/BogMainFinalPart";
 import BogFooter from "../components/BogFooter";
-import GalleryLink from "../components/MainGalleryLink";
+import BogGalleryLink from "../components/BogMainGalleryLink";
 import { BigScreenComponent } from "../components/BigScreenComponent";
 
 
@@ -26,10 +26,10 @@ export const Bogota = () => {
 
       ) : (
         <>
-          <MainSection />
+          <BogMainSection />
           <BogMainPhrase />
           <BogMainDetails />
-          <GalleryLink />
+          <BogGalleryLink />
           <BogMainRecommendations />
           <BogMainFinalPart />
         </>

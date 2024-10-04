@@ -1,4 +1,4 @@
-function MainSection() {
+function BogMainSection() {
   return (
     <div className="bg-header-image bg-cover bg-center bg-no-repeat pb-96">
       <div className="flex items-center justify-center">
@@ -7,10 +7,10 @@ function MainSection() {
         </h1>
       </div>
       <h2 className="text-base text-whitesmoke font-bold font-handlee flex items-center justify-center mx-auto pt-2">
-        1.01.2025
+        17.01.2025
       </h2>
     </div>
   );
 }
 
-export default MainSection;
+export default BogMainSection;

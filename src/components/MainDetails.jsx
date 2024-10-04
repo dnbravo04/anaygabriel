@@ -24,7 +24,7 @@ function MainDetails() {
         <p className="flex items-center text-center justify-center mx-auto font-bold text-3xl">
           Hotel Puerto Colombia
         </p>
-        <p className="flex items-center justify-center mx-auto">
+        <p className="flex items-center justify-center mx-auto mb-4">
           Calle 2 # 5-58, Puerto Colombia, Atlantico
         </p>
         <a href="https://maps.app.goo.gl/cAJDpGcbnUQ5Kj9eA">

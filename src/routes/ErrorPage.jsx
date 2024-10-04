@@ -21,7 +21,11 @@ export default function ErrorPage() {
         </p>
         <div className="flex justify-center mt-8 border border-oldrose">
           <Link to="/anaygabriel/" className="px-4 py-2 text-2xl font-handlee text-oldrose  ">
-            Pagina principal
+            Pagina principal - Barranquilla
+          </Link>
+        </div><div className="flex justify-center mt-8 border border-oldrose">
+          <Link to="/anaygabriel/bogota" className="px-4 py-2 text-2xl font-handlee text-oldrose  ">
+            Pagina principal - Bogotá
           </Link>
         </div>
       </div>

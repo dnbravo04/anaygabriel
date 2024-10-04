@@ -18,7 +18,7 @@ function BogMainRecommendations() {
 
       <div className="grid grid-cols-3 grid-rows-[repeat(10, 0.5fr)] gap-3 mb-5">
         <div className="col-span-2">
-          <p className="pl-4 text-justify">
+          <p className="pl-4 text-right">
             Te pedimos
             <strong>
               {" "}
@@ -38,13 +38,13 @@ function BogMainRecommendations() {
         </div>
 
         <div className="col-span-2 row-start-2 flex my-auto">
-          <p className="pr-4 text-justify">
+          <p className="pr-4 ">
             Mujeres elegantes, pueden usar vestidos por debajo de las rodillas o
             largos.
           </p>
         </div>
         <div className="col-span-3 row-start-3 flex m-3">
-          <strong className=" text-justify m-auto">
+          <strong className="  m-auto">
             Los siguientes colores están prohibidos tanto para hombres como para
             mujeres:
           </strong>
@@ -67,7 +67,7 @@ function BogMainRecommendations() {
         </div>
 
         <div className="col-span-2 row-start-5 flex">
-          <p className="pl-4 text-justify m-auto">
+          <p className="pl-4 m-auto text-right">
             Hombres, vestimenta formal o semi formal. Saco de traje opcional.
             Evitar los colores anteriormente mostrados.
           </p>
@@ -82,13 +82,14 @@ function BogMainRecommendations() {
         </div>
 
         <div className="col-span-2 row-start-6 flex">
-          <p className="pr-4 text-justify m-auto">
-            El lugar no cuenta con parqueadero privado.
+          <p className="pr-4 m-auto">
+            El lugar cuenta con parqueadero libre. Sin embargo, llega temprano
+            ya que los cupos de este son limitados.
           </p>
         </div>
 
         <div className="col-span-2 row-start-7 flex">
-          <p className="pl-4 text-justify items-center m-auto">
+          <p className="pl-4 text-right items-center m-auto">
             Llega a tiempo para que no te pierdas ningun momento mágico.
           </p>
         </div>
@@ -102,11 +103,15 @@ function BogMainRecommendations() {
         </div>
 
         <div className="col-span-2 row-start-8 flex m-auto">
-          <ul className="list-disc pr-4 text-justify">
+          <ul className="list-disc pr-4">
             <li>
               Lista de regalos Falabella haciendo click en el siguiente enlace:
               <br />
-              <a href="https://www.noviosfalabella.com.co/public/resultadoBusquedaNovios.do?radTipoBusqueda=&valorSelectOrdenamiento=fecha&txtBusqueda=475071-03" target="_blank" className="flex mx-auto">
+              <a
+                href="https://www.noviosfalabella.com.co/public/resultadoBusquedaNovios.do?radTipoBusqueda=&valorSelectOrdenamiento=fecha&txtBusqueda=475071-03"
+                target="_blank"
+                className="flex mx-auto"
+              >
                 <button
                   className="
           mx-auto border mb-5 mt-2 border-auburn bg-oldrose hover:bg-opacity-70 text-whitesmoke py-1 px-2"
@@ -119,8 +124,8 @@ function BogMainRecommendations() {
           </ul>
         </div>
 
-        <div className="col-span-3 row-start-9 text-justify">
-          <p className="px-4 text-justify">
+        <div className="col-span-3 row-start-9 ">
+          <p className="px-4 text-center">
             Te pedimos encarecidamente que dejes a tus hijos pequeños con un
             familiar ya que no se permitirá la entrada de estos a la ceremonia.
           </p>

@@ -29,7 +29,7 @@ function BogMainDetails() {
         <p className="flex items-center text-center justify-center mx-auto font-bold text-3xl">
           Capilla de Tierralinda
         </p>
-        <p className="flex items-center justify-center mx-auto">
+        <p className="flex items-center justify-center mx-auto mb-4">
           Calle 127D # 45A-21, Bogotá, Colombia
         </p>
         <a href="https://maps.app.goo.gl/6aYRxFeb3M1MYHV37">
