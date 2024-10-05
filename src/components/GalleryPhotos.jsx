@@ -1,9 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useSwipeable } from "react-swipeable";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
-
 import photo1 from "../img/photos/webp_images/image_1.webp";
 import photo2 from "../img/photos/webp_images/image_2.webp";
 import photo3 from "../img/photos/webp_images/image_3.webp";
@@ -123,7 +120,7 @@ export const GalleryPhotos = () => {
     <>
       <div className="columns-2 md:columns-2 lg:columns-3 py-10 md:py-20 gap-4 mx-4">
         {images.map((image, index) => (
-          <LazyLoadImage
+          <img
             key={index}
             src={image}
             alt={`Image ${index + 1}`}
