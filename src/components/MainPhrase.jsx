@@ -1,9 +1,9 @@
 import goldBorder from "../img/gold-border-with-roses.png";
 export default function MainPhrase() {
   return (
-    <div className="relative items-center justify-center bg-gold-border-with-roses bg-contain">
+    <div className="relative items-center justify-center bg-contain">
       <img
-        className="bg-cover invisible object-cover"
+        className="bg-cover object-cover"
         src={goldBorder}
         alt=""
       />

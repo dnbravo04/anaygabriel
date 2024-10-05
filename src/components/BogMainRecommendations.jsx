@@ -14,10 +14,8 @@ function BogMainRecommendations() {
 
       <div className="grid grid-cols-3 grid-rows-[repeat(9, 0.5fr)] gap-3 mb-5">
         <div className="col-span-2">
-          <p className="pl-4 text-right">
-            Te pedimos
-            <strong> confirmar tu asistencia antes del 30 de Noviembre</strong>
-            mediante el botón al final de la página.
+          <p className="pl-4 text-justify">
+            Te pedimos<strong>&nbsp;confirmar tu asistencia antes del 30 de Noviembre&nbsp;</strong>mediante el botón al final de la página.
           </p>
         </div>
 
@@ -29,7 +27,7 @@ function BogMainRecommendations() {
           <img src={iconWomen} alt="Icono de mujeres" />
         </div>
 
-        <div className="col-span-2 row-start-2 flex my-auto">
+        <div className="col-span-2 row-start-2 text-justify flex my-auto">
           <p className="pr-4">
             Mujeres elegantes, pueden usar vestidos por debajo de las rodillas o
             largos.
@@ -37,7 +35,7 @@ function BogMainRecommendations() {
         </div>
 
         <div className="col-span-2 row-start-3 flex">
-          <p className="pl-4 m-auto text-right">
+          <p className="pl-4 m-auto text-justify">
             Hombres, vestimenta formal o semi formal. Saco de traje opcional.
           </p>
         </div>
@@ -51,14 +49,14 @@ function BogMainRecommendations() {
         </div>
 
         <div className="col-span-2 row-start-4 flex">
-          <p className="pr-4 m-auto">
+          <p className="pr-4 m-auto text-justify">
             El lugar cuenta con parqueadero libre. Sin embargo, llega temprano
             ya que los cupos de este son limitados.
           </p>
         </div>
 
         <div className="col-span-2 row-start-5 flex">
-          <p className="pl-4 text-right items-center m-auto">
+          <p className="pl-4 text-justify items-center m-auto">
             Llega a tiempo para que no te pierdas ningun momento mágico.
           </p>
         </div>
@@ -72,7 +70,7 @@ function BogMainRecommendations() {
         </div>
 
         <div className="col-span-2 row-start-6 flex m-auto">
-          <ul className="list-disc pr-4">
+          <ul className="list-disc text-justify pr-4">
             <li>
               Lista de regalos Falabella (Codigo 475071-03) haciendo click en el
               siguiente enlace:

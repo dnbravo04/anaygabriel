@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import bgimage from "../img/image_20.webp";
 
 export const BigScreenComponent = () => {
+  const componentRef = useRef(null);
+
+  useEffect(() => {
+    const footerHeight = document.querySelector('footer').offsetHeight; // Replace 'footer' with the actual class or ID of your footer element
+    componentRef.current.style.height = `calc(100vh - ${footerHeight}px)`;
+  }, []);
+
   return (
-    <div className="relative w-full">
+    <div className="relative w-full" ref={componentRef}>
       <img
         src={bgimage}
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover bg-center"
         alt="Background Image"
       />
       <div className="absolute inset-0 flex flex-col justify-center items-start px-10 lg:items-start">

@@ -1,6 +1,6 @@
 function BogMainSection() {
   return (
-    <div className="bg-header-image bg-cover bg-center bg-no-repeat h-svh">
+    <div className="bg-header-image bg-cover bg-center bg-no-repeat bg-fixed h-svh">
       <div className="flex items-center justify-center">
         <h1 className="text-7xl text-whitesmoke pt-24  font-italianno">
           Ana y Gabriel

@@ -20,7 +20,7 @@ function MainRecommendations() {
         <div className="col-span-2">
           <p className="pl-4 text-justify">
             Te pedimos
-            <strong> confirmar tu asistencia antes del 30 de Noviembre</strong>
+            <strong>&nbsp;confirmar tu asistencia antes del 30 de Noviembre&nbsp;</strong>
             mediante el botón al final de la página. Por políticas del lugar
             solo se permitirá la entrada a personas en lista.
           </p>
@@ -74,7 +74,7 @@ function MainRecommendations() {
 
         <div className="col-span-2 row-start-6 flex">
           <p className="pr-4 text-justify m-auto">
-            Evita traer tu vehiculo (carro o moto) ya que El lugar no cuenta con
+            Evita traer tu vehiculo (carro o moto) ya que el lugar no cuenta con
             parqueadero privado.
           </p>
         </div>
