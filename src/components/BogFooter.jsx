@@ -1,8 +1,6 @@
 import mailLogo from "../img/email.png";
 import whatsappLogo from "../img/whatsapp.png";
 import React from "react";
-import { Link } from "react-router-dom";
-
 function BogFooter() {
   return (
     <footer className="bg-blackolive text-whitesmoke font-handlee py-5">

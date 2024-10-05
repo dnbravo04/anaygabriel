@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-
-import { GalleryPhotos } from './GalleryPhotos';
 function Modal({ children }) {
   const [isOpen, setIsOpen] = useState(false);
 

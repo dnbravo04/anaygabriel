@@ -20,11 +20,11 @@ export default function ErrorPage() {
           Parece ser que la pagina que buscas no existe. ¡No te preocupes! Vuelve a la pagina principal con el botón de abajo.
         </p>
         <div className="flex justify-center mt-8 border border-oldrose">
-          <Link to="/anaygabriel/" className="px-4 py-2 text-2xl font-handlee text-oldrose  ">
+          <Link to="/" className="px-4 py-2 text-2xl font-handlee text-oldrose  ">
             Pagina principal - Barranquilla
           </Link>
         </div><div className="flex justify-center mt-8 border border-oldrose">
-          <Link to="/anaygabriel/bogota" className="px-4 py-2 text-2xl font-handlee text-oldrose  ">
+          <Link to="/bogota" className="px-4 py-2 text-2xl font-handlee text-oldrose  ">
             Pagina principal - Bogotá
           </Link>
         </div>

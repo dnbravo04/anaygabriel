@@ -8,15 +8,15 @@ import ErrorPage from './routes/ErrorPage';
 
 const router = createBrowserRouter([
   {
-    path: '/anaygabriel/',
+    path: '/',
     element: <Home />,
   },
   {
-    path: '/anaygabriel/galeria',
+    path: '/galeria',
     element: <Gallery />,
   },
   {
-    path: '/anaygabriel/bogota',
+    path: '/bogota',
     element: <Bogota />,
   },
   {
