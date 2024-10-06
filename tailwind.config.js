@@ -18,11 +18,11 @@ export default {
       colors: {
         whitesmoke: "#f7f4f3",
         oldrose: "#be7679",
-        blackolive: "#2b2a1a",
+        blackolive: "#26300D",
         auburn: "#a6202d",
-        pakistangreen: "#26300D",
-        mossgreen:"#576C1E",
-        platinum:"#D3DBDE",
+        pakistangreen: "#977A3C",
+        mossgreen:"#d1aa66",
+
       },
       backgroundImage: {
         'header-image': "url('img/image1.webp')",
