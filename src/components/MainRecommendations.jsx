@@ -96,7 +96,7 @@ function MainRecommendations() {
         <div className="col-span-2 row-start-8 flex m-auto">
           <ul className="list-disc pr-4 text-justify">
             <li>
-              Lista de regalos Falabella (Codigo 475071-03) haciendo click en el
+              Lista de regalos Falabella (Código 475071-03) haciendo click en el
               siguiente enlace:
               <br />
               <a

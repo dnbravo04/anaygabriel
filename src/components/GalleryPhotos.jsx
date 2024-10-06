@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useSwipeable } from "react-swipeable";
+import LazyLoad, { lazyload } from "react-lazyload";
 import photo1 from "../img/photos/webp_images/image_1.webp";
 import photo2 from "../img/photos/webp_images/image_2.webp";
 import photo3 from "../img/photos/webp_images/image_3.webp";
@@ -120,20 +121,21 @@ export const GalleryPhotos = () => {
     <>
       <div className="columns-2 md:columns-2 lg:columns-3 py-10 md:py-20 gap-4 mx-4">
         {images.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            alt={`Image ${index + 1}`}
-            effect="blur"
-            onClick={() => openModal(index)}
-            className="w-full mb-4 break-inside-avoid transition ease-in-out delay-75 hover:scale-105 cursor-pointer"
-          />
+          <LazyLoad once>
+            <img
+              key={index}
+              src={image}
+              alt={`Image ${index + 1}`}
+              onClick={() => openModal(index)}
+              className="w-full mb-4 break-inside-avoid transition ease-in-out delay-75 hover:scale-105 cursor-pointer hover:transition hover:ease-in-out hover:delay-75"
+            />{" "}
+          </LazyLoad>
         ))}
       </div>
 
       {isOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-blackolive bg-opacity-90 animate-fadeIn"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 animate-fadeIn"
           onClick={closeModal}
           {...handlers}
         >
@@ -149,9 +151,11 @@ export const GalleryPhotos = () => {
                 onClick={closeModal}
               >
                 {images.map((image, index) => (
-                  <div key={index} className="w-full flex-shrink-0 border p-1 border-oldrose h-max flex items-center justify-center">
+                  <div
+                    key={index}
+                    className="w-full flex-shrink-0 border p-1 border-oldrose h-max flex items-center justify-center "
+                  >
                     <img
-                      effect="blur"
                       src={image}
                       alt={`Image ${index + 1}`}
                       className="object-contain max-h-[45em] items-center justify-center m-0"
