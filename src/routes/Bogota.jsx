@@ -32,9 +32,9 @@ export const Bogota = () => {
           <BogGalleryLink />
           <BogMainRecommendations />
           <BogMainFinalPart />
+          <BogFooter />
         </>
       )}
-      <BogFooter />
     </>
   );
 };

@@ -3,7 +3,7 @@ import whatsappLogo from "../img/whatsapp.png";
 import React from "react";
 function BogFooter() {
   return (
-    <footer className="bg-blackolive text-whitesmoke font-handlee py-5">
+    <footer id="footer" className="bg-blackolive text-whitesmoke font-handlee py-5 ">
       <div className="flex items-center justify-center">
         <img src={mailLogo} className="w-5 flex" />
         <a

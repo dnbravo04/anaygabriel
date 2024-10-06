@@ -29,6 +29,7 @@ export default {
         'gallery-image': "url('img/image2.webp')",
         'gold-border-with-roses': "url('img/gold-border-with-roses.png')",
         'final-image': "url('img/image3.webp')",
+        'big-screen': "url('img/image_20.webp')"
       },
       keyframes: {
         fadeIn: {

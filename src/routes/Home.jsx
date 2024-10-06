@@ -30,9 +30,9 @@ export const Home = () => {
           <GalleryLink />
           <MainRecommendations />
           <MainFinalPart />
+          <Footer />
         </>
       )}
-      <Footer />
     </>
   );
 };
