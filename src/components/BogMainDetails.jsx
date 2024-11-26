@@ -27,12 +27,12 @@ function BogMainDetails() {
           Lugar de la recepción
         </h2>
         <p className="flex items-center text-center justify-center mx-auto font-bold text-3xl">
-          Capilla de Tierralinda
+          Capilla de Alhambra
         </p>
         <p className="flex items-center justify-center mx-auto mb-4">
-          Calle 127D # 45A-21, Bogotá, Colombia
+          Carrera 53 # 113-05, Bogotá, Colombia
         </p>
-        <a target="_blank" href="https://maps.app.goo.gl/6aYRxFeb3M1MYHV37">
+        <a target="_blank" href="https://maps.app.goo.gl/akpxZzNdrGFUjSwf9">
           <button
             className="flex w-3/4 items-center justify-center mx-auto border font-semibold border-pakistangreen bg-mossgreen bg-opacity-50 hover:bg-opacity-70 text-whitesmoke py-2 px-8"
             type="button"
