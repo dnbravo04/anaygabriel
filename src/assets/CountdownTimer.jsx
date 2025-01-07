@@ -34,7 +34,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
 };
 
 const CountdownTimer = () => {
-  const TEN_JAN_2025 = new Date("2025-01-10");
+  const TEN_JAN_2025 = new Date("2025-01-11");
   TEN_JAN_2025.setHours(17);
 
   const [days, hours, minutes, seconds] = useCountdown(TEN_JAN_2025);

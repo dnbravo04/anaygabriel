@@ -34,7 +34,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
 };
 
 const BogCountdownTimer = () => {
-  const SEVENTEEN_JAN_2025 = new Date("2025-01-17");
+  const SEVENTEEN_JAN_2025 = new Date("2025-01-18");
   SEVENTEEN_JAN_2025.setHours(19);
 
   const [days, hours, minutes, seconds] = useCountdown(SEVENTEEN_JAN_2025);
