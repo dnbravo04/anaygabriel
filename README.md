@@ -1,4 +1,4 @@
-# Aná & Gabriel — Digital Event Invitation
+# Ana & Gabriel — Digital Event Invitation
 
 A custom digital invitation built for a wedding/birthday celebration, designed to give guests an elegant, mobile-first experience instead of a static printed card.
 
